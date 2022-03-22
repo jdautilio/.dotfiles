@@ -51,6 +51,7 @@ myConfig = def
     , ("C-g",   sendMessage ToggleGaps)
     , ("M-m",   withFocused (sendMessage . maximizeRestore))
     , ("M-f",   spawn "rofi -show filebrowser")
+    , ("M-p",	spawn "rofi -show run")
 
     -- Brightness control
     , ("<XF86MonBrightnessUp>"      , spawn "brightnessctl s +5%")
