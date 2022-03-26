@@ -27,9 +27,7 @@ myStartupHook   = do
     spawn "$HOME/.config/xmonad/scripts/autostart.sh"
     setWMName "LG3D"
 
--- myLayout = spacingRaw True (Border 0 5 5 5) True (Border 5 5 5 5) True $ avoidStruts $ tiled ||| Mirror tiled ||| threeCol ||| smartBorders Full
 myLayout = smartSpacing 10 $ avoidStruts $ tiled ||| Mirror tiled ||| threeCol ||| smartBorders Full
--- myLayout = avoidStruts $ tiled ||| Mirror tiled ||| threeCol ||| smartBorders Full
   where
     threeCol    = smartBorders $ ThreeColMid nmaster delta ratio
     tiled       = smartBorders $ Tall nmaster delta ratio
@@ -50,11 +48,14 @@ myConfig = def
     }
   `additionalKeysP`
     [ ("M-b",   spawn "google-chrome-stable")
-    , ("C-g",   sendMessage ToggleGaps)
-    , ("M-m",   withFocused (sendMessage . maximizeRestore))
     , ("M-f",   spawn "rofi -show filebrowser")
     , ("M-p",   spawn "rofi -show run")
     , ("M-w",   spawn "rofi -show window")
+
+    -- Layout control
+    , ("C-g",   sendMessage ToggleGaps)
+    , ("M-s",   sendMessage (ModifyWindowBorderEnabled (\b -> not b)))
+    , ("M-m",   withFocused (sendMessage . maximizeRestore))
 
     -- Brightness control
     , ("<XF86MonBrightnessUp>"      , spawn "brightnessctl s +5%")
