@@ -28,7 +28,8 @@ myStartupHook   = do
     setWMName "LG3D"
 
 -- myLayout = spacingRaw True (Border 0 5 5 5) True (Border 5 5 5 5) True $ avoidStruts $ tiled ||| Mirror tiled ||| threeCol ||| smartBorders Full
-myLayout = spacingWithEdge 10 $ avoidStruts $ tiled ||| Mirror tiled ||| threeCol ||| smartBorders Full
+myLayout = smartSpacing 10 $ avoidStruts $ tiled ||| Mirror tiled ||| threeCol ||| smartBorders Full
+-- myLayout = avoidStruts $ tiled ||| Mirror tiled ||| threeCol ||| smartBorders Full
   where
     threeCol    = smartBorders $ ThreeColMid nmaster delta ratio
     tiled       = smartBorders $ Tall nmaster delta ratio
@@ -37,21 +38,23 @@ myLayout = spacingWithEdge 10 $ avoidStruts $ tiled ||| Mirror tiled ||| threeCo
     delta       = 3/100 -- Percent of screen to increment by when resizing panes
 
 myConfig = def
-	{ modMask       = myModMask
-	, terminal		= myTerminal
-	, layoutHook	= gaps [(U,40), (R,5), (D,5), (L,5)] . maximize $ myLayout
+    { modMask       = myModMask
+    , terminal      = myTerminal
+    , layoutHook    = gaps [(U,50), (R,10), (D,10), (L,10)] . maximize $ myLayout
+--    , layoutHook    = maximize $ myLayout
     , startupHook   = myStartupHook
     , workspaces    = myWorkspaces
     , borderWidth   = myBorderWidth
     , normalBorderColor     = normBord
     , focusedBorderColor    = focdBord
-	}
+    }
   `additionalKeysP`
-	[ ("M-b",	spawn "google-chrome-stable")
+    [ ("M-b",   spawn "google-chrome-stable")
     , ("C-g",   sendMessage ToggleGaps)
     , ("M-m",   withFocused (sendMessage . maximizeRestore))
     , ("M-f",   spawn "rofi -show filebrowser")
-    , ("M-p",	spawn "rofi -show run")
+    , ("M-p",   spawn "rofi -show run")
+    , ("M-w",   spawn "rofi -show window")
 
     -- Brightness control
     , ("<XF86MonBrightnessUp>"      , spawn "brightnessctl s +5%")
@@ -68,7 +71,7 @@ myConfig = def
     , ("<XF86AudioStop>"    , spawn "playerctl stop")
     , ("<XF86AudioNext>"    , spawn "playerctl next")
     , ("<XF86AudioPrev>"    , spawn "playerctl previous")
-	]
+    ]
 
 main :: IO ()
 main = xmonad $ docks . ewmhFullscreen . ewmh $ myConfig
