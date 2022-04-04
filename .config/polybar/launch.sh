@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 # Kill running instances
 killall -q polybar
 
