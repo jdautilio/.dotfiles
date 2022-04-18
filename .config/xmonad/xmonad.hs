@@ -15,8 +15,8 @@ import XMonad.Layout.NoBorders
 import XMonad.Layout.Maximize
 
 -- colours
-normBord = "#4c566a"
-focdBord = "#5e81ac"
+normBord = "#208490"
+focdBord = "#00ACBD"
 
 myModMask       = mod4Mask
 myTerminal      = "alacritty"
@@ -38,7 +38,7 @@ myLayout = smartSpacing 10 $ avoidStruts $ tiled ||| Mirror tiled ||| threeCol |
 myConfig = def
     { modMask       = myModMask
     , terminal      = myTerminal
-    , layoutHook    = gaps [(U,50), (R,10), (D,10), (L,10)] . maximize $ myLayout
+    , layoutHook    = gaps [(U,45), (R,10), (D,10), (L,10)] . maximize $ myLayout
 --    , layoutHook    = maximize $ myLayout
     , startupHook   = myStartupHook
     , workspaces    = myWorkspaces
