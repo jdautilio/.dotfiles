@@ -1,0 +1,79 @@
+<application>
+  <component name="DynamicPluginEnabler">
+    <trackers>
+      <map>
+        <entry key="26iDQDM6yXsGEcYS0mXoBOf533e">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="26tgBmtLnEDtS65tDGHyuv7lDfS">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="26tgiOOHygasLtladvpqjfg9ZXl">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="26tryV7q8Qp7ixhxhZOA3aLU3tD">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2718bZfNe2krhjAMwwF8wZfm1vp">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="28LUCYJUgS16O9DYaMsEnDPCFkv">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Noto Sans Display Medium" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="MarketplacePluginsSearchHistory" value="/tag:Theme" />
+    <property name="NextRunPlatformUpdateBuild" value="IC-221.5080.210/2022.1" />
+    <property name="NextRunPlatformUpdateVersion" value="2022.1" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="SettingsSearchHistory" value="font&#10;zoom&#10;font size" />
+    <property name="appcds.runOnSecondStart" value="IC-213.7172.25-42ad341185b737cb71bbf1e111035a4b3ae0a532aa2455db57409640801fe94a" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.run.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="bundled.plugins.list.saved.version" value="IC-213.7172.25" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="eclipse.projects.detected" value="" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Universidad/Algoritmos II/Algoritmos/MinimumSpanningTrees&#10;/home/joel/Universidad/Algoritmos II/Prácticos/01 - Fuerza bruta/ejercicio 4/Ex4.java&#10;/home/joel/Universidad/Algoritmos II/Prácticos/01 - Fuerza bruta/exercise-set-1-Jota98daut/GreatestCommonDivisor&#10;/home/joel/Universidad/Algoritmos II/Prácticos/01 - Fuerza bruta/exercise-set-1-Jota98daut/ArraySorter&#10;/home/joel/Universidad/Algoritmos II/Prácticos/01 - Fuerza bruta/exercise-set-1-Jota98daut/listSorter&#10;/home/joel/Universidad/Algoritmos II/Prácticos/exercise-set-1-Jota98daut/GreatestCommonDivisor&#10;/home/joel/Universidad/Algoritmos II/Prácticos/exercise-set-1-Jota98daut&#10;/home/joel/Universidad/Algoritmos II/Prácticos/exercise-set-1-Jota98daut/ArraySorter" />
+    <property name="file.gist.reindex.count" value="39" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="fileTypeDetectors" value="com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
+    <property name="got.it.tooltip.reader.mode.got.it" value="1" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.whats.new.shown.for" value="213" />
+    <property name="installed.kotlin.plugin.version" value="213-1.5.10-release-949-IJ7172.25" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Universidad/Algoritmos II/Algoritmos/MinimumSpanningTrees" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1650995233514" />
+    <property name="project.wizard.group" value="JAVA_MODULE" />
+    <property name="registry.to.advanced.settings.migration.build" value="IC-213.7172.25" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+  </component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="Ex4.java-history" project-path="/tmp/Ex4.java" last-access-time="1648476316034" />
+      <command-history-file filename="GreatestCommonDivisor-history" project-path="$USER_HOME$/Universidad/Algoritmos II/Prácticos/exercise-set-1-Jota98daut/GreatestCommonDivisor" last-access-time="1648248560538" />
+      <command-history-file filename="ArraySorter-history" project-path="$USER_HOME$/Universidad/Algoritmos II/Prácticos/exercise-set-1-Jota98daut/ArraySorter" last-access-time="1647897592579" />
+    </command-history-files>
+  </component>
+</application>

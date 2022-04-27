@@ -1,0 +1,199 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="ArraySorter" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="5" lastUsed="1647900595595" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="1" lastUsed="1647897924810" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/java/util/ArraySorter.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="array-sorter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="array-sorter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" commandHistoryFileName="ArraySorter-history" />
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25026315" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Bookmarks" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Pull Requests" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.33015075" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33015075" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" weight="0.33015075" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33015075" />
+      <window_info anchor="bottom" id="Services" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="Dependencies" order="11" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.3248663" />
+      <window_info anchor="right" id="documentation.v2" order="1" side_tool="true" />
+      <window_info anchor="right" id="Layout Validation" order="2" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Maven</value>
+      <value>Version Control</value>
+      <value>Problems View</value>
+      <value>Terminal</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="150" key="#Project_Structure" timestamp="1647897661968">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="150" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1647897661968" />
+    <state x="440" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647897635935">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1647897635935" />
+    <state x="582" y="333" key="FileChooserDialogImpl" timestamp="1648474258191">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="582" y="333" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1648474258191" />
+    <state width="1824" height="300" key="GridCell.Tab.0.bottom" timestamp="1647898536376">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1824" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1647898536376" />
+    <state width="1824" height="300" key="GridCell.Tab.0.center" timestamp="1647898536374">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1824" height="300" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1647898536374" />
+    <state width="1824" height="300" key="GridCell.Tab.0.left" timestamp="1647898536369">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1824" height="300" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1647898536369" />
+    <state width="1824" height="300" key="GridCell.Tab.0.right" timestamp="1647898536375">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1824" height="300" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1647898536375" />
+    <state x="454" y="207" key="SettingsEditor" timestamp="1647900701083">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="454" y="207" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1647900701083" />
+    <state x="623" y="277" width="672" height="687" key="search.everywhere.popup" timestamp="1647900652933">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="277" width="672" height="687" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1647900652933" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/unittest/BubbleSortSmallArraysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-707">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/util.unittest.BubbleSortSmallArraysTest.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ArraySorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
+          <folding>
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1630#1631#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI" />
+      <state key="ProjectLibrariesConfigurable.UI" />
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
