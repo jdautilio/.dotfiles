@@ -18,22 +18,16 @@
 
 [colors]
 ; Nord theme ============
-background = #77171d1d
-foreground = #cddede
-red     = #f18cb1
-yellow  = #c57b67
-green   = #00acbd
-cyan    = #208490
-blue    = #1a9ba6
-magenta = #fca188
-white   = #b3c2c2
-
-foreground-active = #3EA8B1
-occupied = #19828B
-occupied-active = #1a9ba6
+background = #111111
+foreground = #f3f4f5
+foreground-active = #f051ea
+occupied = #cccccc
+occupied-active = #6790EB
 active = #5e81ac
-alert = #ea9cba
-
+alert = #d08770
+volume-min = #a3be8c
+volume-med = #ebcb8b
+volume-max = #bf616a
 ; =======================
 
 
@@ -97,9 +91,9 @@ format-discharging = <ramp-capacity> <label-discharging>
 format-full = <ramp-capacity> <label-full>
 format-low = <label-low>
 
-format-charging-underline = ${colors.blue}
-format-discharging-underline = ${colors.blue}
-format-full-underline = ${colors.blue}
+format-charging-underline = #00b600
+format-discharging-underline = #00b600
+format-full-underline = #00b600
 
 label-charging = %percentage%%
 label-discharging = %percentage%%
@@ -111,14 +105,14 @@ ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-4 = 
-ramp-capacity-foreground = ${colors.blue}
+ramp-capacity-foreground = #00b600
 
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
 animation-charging-3 = 
 animation-charging-4 = 
-animation-charging-foreground = ${colors.blue}
+animation-charging-foreground = #00b600
 
 animation-low-0 = " "
 animation-low-1 = " "
@@ -133,8 +127,8 @@ tail = false
 interval = 1024
 
 format-prefix = " "
-format-prefix-foreground = ${colors.blue}
-format-underline = ${colors.blue}
+format-prefix-foreground = #0084FF
+format-underline = #0084FF
 
 [module/xworkspaces]
 type = internal/xworkspaces
@@ -163,12 +157,13 @@ enable-scroll = true
 reverse-scroll = true
 
 label-active = %name%
+label-active-background = ${colors.background}
 label-active-foreground = ${colors.foreground-active}
-label-active-underline = ${colors.foreground-active}
+label-active-underline = #6790eb
 label-active-padding = 1
 
 label-occupied = %name%
-label-occupied-foreground = ${colors.blue}
+label-occupied-foreground = ${colors.occupied-active}
 label-occupied-padding = 1
 
 label-urgent = %name%
@@ -203,7 +198,7 @@ label-unmounted-foreground = ${colors.disabled}
 type = internal/pulseaudio
 
 format-volume = <ramp-volume> <label-volume>
-format-volume-underline = ${colors.blue}
+format-volume-underline = #cc00ff
 format-muted = <label-muted>
 
 ; label-volume = %percentage%%
@@ -218,7 +213,7 @@ label-muted-foreground = ${colors.volume-min}
 ramp-volume-0 = ""
 ramp-volume-1 = ""
 ramp-volume-2 = ""
-ramp-volume-foreground = ${colors.blue}
+ramp-volume-foreground = #cc00ff
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -249,8 +244,8 @@ interval = 1
 label = %percentage_used%%
 format = <label>
 format-prefix = " "
-format-prefix-foreground = ${colors.blue}
-format-underline = ${colors.blue}
+format-prefix-foreground = #3384d0
+format-underline = #3384d0
 
 [module/cpu]
 type = internal/cpu
@@ -266,8 +261,8 @@ format = <label>
 
 label = %percentage%%
 format-prefix = "  "
-format-prefix-foreground = ${colors.blue}
-format-underline = ${colors.blue}
+format-prefix-foreground = #cd1f3f
+format-underline = #cd1f3f
 
 [network-base]
 type = internal/network
@@ -295,8 +290,8 @@ date-alt = %d-%m-%Y %H:%M:%S
 label = %date%
 label-foreground = ${colors.foreground}
 format-prefix = " "
-format-prefix-foreground = ${colors.blue}
-format-underline = ${colors.blue}
+format-prefix-foreground = #c1941a
+format-underline = #c1941a
 
 [settings]
 screenchange-reload = true

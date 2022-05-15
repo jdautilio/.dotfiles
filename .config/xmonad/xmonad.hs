@@ -19,7 +19,7 @@ normBord = "#208490"
 focdBord = "#00ACBD"
 
 myModMask       = mod4Mask
-myTerminal      = "alacritty"
+myTerminal      = "kitty"
 myWorkspaces    = [ "I","II","III","IV","V","VI","VII","VIII","IX","X" ]
 myBorderWidth   = 2
 

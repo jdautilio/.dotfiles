@@ -7,6 +7,8 @@
 
 alias ls='ls --color=auto'
 alias v='nvim'
+alias dc='docker compose'
+alias dcr='docker compose exec app bundle exec rspec'
 
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'

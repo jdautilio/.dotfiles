@@ -1,8 +1,14 @@
 # Set wallpaper
-feh --bg-fill ~/Dropbox/wpps -z &
+feh --bg-fill ~/Dropbox/wpps/arch-mac.jpg &
+# variety &
+
+# Run Polybar
+/home/joel/.config/polybar/launch.sh &
+
+# Keyboard layout
+setxkbmap -layout us -variant altgr-intl
 
 # Run applications
-/home/joel/.config/polybar/launch.sh &
 dropbox &
 nm-applet &
 picom --experimental-backends -b &
