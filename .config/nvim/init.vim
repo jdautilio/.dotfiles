@@ -7,6 +7,7 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 
 call plug#begin()
 
+Plug 'neoclide/coc.nvim'
 Plug '907th/vim-auto-save'
 Plug 'alvan/vim-closetag'
 Plug 'kien/ctrlp.vim'
