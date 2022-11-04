@@ -1,0 +1,25 @@
+vim.cmd [[packadd packer.nvim]]
+
+return require('packer').startup(function(use)
+  use 'wbthomason/packer.nvim'
+  use 'nvim-lualine/lualine.nvim' -- Statusline
+  use 'neovim/nvim-lspconfig'
+  use 'onsails/lspkind.nvim'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/nvim-cmp' -- Completion
+  use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
+  use 'sainnhe/gruvbox-material'
+  use {
+    'svrana/neosolarized.nvim',
+    requires = { 'tjdevries/colorbuddy.nvim' }
+  }
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+  }
+  use 'windwp/nvim-autopairs'
+  use 'windwp/nvim-ts-autotag'
+  use 'kien/ctrlp.vim'
+end)
