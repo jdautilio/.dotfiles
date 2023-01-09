@@ -27,5 +27,5 @@ setxkbmap -layout us -variant altgr-intl &
 variety &
 dropbox &
 nm-applet &
-picom -b &
+picom -b --experimental-backends &
 rclone mount gdrive: Drive &

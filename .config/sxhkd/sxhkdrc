@@ -130,24 +130,31 @@ super + {Left,Down,Up,Right}
 
 # Toggle mute
 XF86AudioMute
-    pactl set-sink-mute @DEFAULT_SINK@ toggle
+  pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 # Toggle mic mute
 XF86AudioMicMute
-    pactl set-source-mute @DEFAULT_SOURCE@ toggle
+  pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
 # Change volume
 XF86Audio{Raise,Lower}Volume
-    pactl set-sink-volume @DEFAULT_SINK@ {+,-}2% && volnoti-show $(pactl get-sink-volume @DEFAULT_SINK@ | grep -Po "[0-9]+(%)" | tail -1)
+  pactl set-sink-volume @DEFAULT_SINK@ {+,-}2% && volnoti-show $(pactl get-sink-volume @DEFAULT_SINK@ | grep -Po "[0-9]+(%)" | tail -1)
 
 # Change volume
 super + {k,j}
-    pactl set-sink-volume @DEFAULT_SINK@ {+,-}2% && volnoti-show $(pactl get-sink-volume @DEFAULT_SINK@ | grep -Po "[0-9]+(%)" | tail -1)
+  pactl set-sink-volume @DEFAULT_SINK@ {+,-}2% && volnoti-show $(pactl get-sink-volume @DEFAULT_SINK@ | grep -Po "[0-9]+(%)" | tail -1)
 
 # Change volume, chunky
 super + shift + {k,j}
-    pactl set-sink-volume @DEFAULT_SINK@ {+,-}10% && volnoti-show $(pactl get-sink-volume @DEFAULT_SINK@ | grep -Po "[0-9]+(%)" | tail -1)
+  pactl set-sink-volume @DEFAULT_SINK@ {+,-}10% && volnoti-show $(pactl get-sink-volume @DEFAULT_SINK@ | grep -Po "[0-9]+(%)" | tail -1)
 
 # Change screen brightness
 XF86MonBrightness{Up,Down}
-    light -{A,U} 10
+  light -{A,U} 10
+
+# Screenshots
+super + shift + s
+  home/joel/.local/bin/scrot-clip -s
+
+Super_L
+  home/joel/.local/bin/scrot-clip
