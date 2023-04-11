@@ -1,0 +1,29 @@
+@import "themes/catppuccin-mocha.css";
+
+
+* {
+  border: none;
+  font-family: Jetbrains Mono Nerd Font, Iosevka Nerd Font;
+  font-size: 13px;
+  color: @lavender;
+}
+
+window#waybar {
+  background-color: transparent;
+}
+
+#workspaces {
+}
+
+#workspaces,
+#mpd,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#clock,
+#tray {
+  background-color: @base;
+  border-radius: 15px;
+  padding: 0 15px;
+}
