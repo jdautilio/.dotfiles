@@ -154,7 +154,7 @@ XF86MonBrightness{Up,Down}
 
 # Screenshots
 super + shift + s
-  home/joel/.local/bin/scrot-clip -s
+  flameshot
 
 Super_L
   home/joel/.local/bin/scrot-clip
