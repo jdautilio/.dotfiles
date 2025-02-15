@@ -1,0 +1,29 @@
+[2025-01-03 19:17:45.020] [info] Using configuration file /home/joel/.config/waybar/config.jsonc
+[2025-01-03 19:17:45.024] [info] Discovered appearance 'dark'
+[2025-01-03 19:17:45.024] [info] Using CSS file /home/joel/.config/waybar/style.css
+[2025-01-03 19:17:45.030] [info] Hyprland IPC starting
+[2025-01-03 19:17:45.030] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event0 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event1 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event2 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event8 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/mice (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event11 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event9 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event10 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event12 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event13 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/mouse1 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event14 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/mouse2 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event15 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] Can't open /dev/input/event16 (are you in the input group?): EACCES Permission denied
+[2025-01-03 19:17:45.035] [warning] module keyboard-state: Disabling module "keyboard-state", Failed to find keyboard device: EACCES Permission denied
+[2025-01-03 19:17:45.038] [warning] Timezone: America/Argentina/Córdoba. std::chrono::tzdb: cannot locate zone: America/Argentina/Córdoba
+[2025-01-03 19:17:45.039] [warning] Error while creating the menu : Failed to expand file: $HOME/.config/waybar/power_menu.xml. Menu popup not activated.
+[2025-01-03 19:17:45.058] [error] Failed to query power-profiles-daemon via dbus: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2025-01-03 19:17:45.156] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+
+** (waybar:26260): WARNING **: 19:17:45.158: Status Notifier Item with bus name ':1.138' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:26260): WARNING **: 19:19:56.475: Status Notifier Item with bus name ':1.138' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered

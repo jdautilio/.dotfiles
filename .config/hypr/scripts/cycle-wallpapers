@@ -1,0 +1,47 @@
+#!/bin/sh
+
+set_wallpaper() {
+    file=$1
+    swaybg -i $file &
+}
+
+if [ $# -ne 1 ]; then
+    echo "Usage: cycle-wallpapers <dirname>"
+    exit 1
+fi
+
+dirpath=$1
+
+if [ ! -d $dirname ]; then
+    echo "$dirname is not a directory"
+    exit 1
+fi
+
+files=($(fd -t f -d 1 -a -e png -e jpg -e jpeg . $dirpath))
+size=${#files[@]}
+
+if [ $size -eq 0 ]; then
+    echo "$dirname doesn't contain images"
+    exit 1
+fi
+
+if [ $size -eq 1 ]; then
+    set_wallpaper ${files[0]}
+    exit 0
+fi
+
+index=0
+
+while true; do
+    file=${files[$index]}
+    set_wallpaper $file
+
+    sleep 15m
+
+    new_index=$(($RANDOM % $size))
+    while [ $new_index -eq $index ]; do
+        echo "Into while"
+        new_index=$(($RANDOM % $size))
+    done
+    index=$new_index
+done
