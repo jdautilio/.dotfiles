@@ -2225,6 +2225,6 @@ include themes/current-theme.conf
 
 
 # BEGIN_KITTY_THEME
-# Kanagawa
+# Kanagawa_dragon
 include current-theme.conf
 # END_KITTY_THEME
